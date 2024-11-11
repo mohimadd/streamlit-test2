@@ -15,8 +15,8 @@ st.title('Late Product Prediction')
 left,right = st.columns(2)
 
 with left:
-    st.markdown('1 : Plane, 2 : Ship, 3 : Train')
     shipment_model = st.number_input('input shipment mode')
+    st.markdown('1 : Plane, 2 : Ship, 3 : Train')
 
 with right:
     customer_rating = st.number_input('input customer rating')
