@@ -15,6 +15,7 @@ st.title('Late Product Prediction')
 left,right = st.columns(2)
 
 with left:
+    st.info('1 : Plane, 2 : Ship, 3 : Train')
     shipment_model = st.number_input('input shipment mode')
 
 with right:
