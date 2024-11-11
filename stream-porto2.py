@@ -16,7 +16,7 @@ left,right = st.columns(2)
 
 with left:
     shipment_model = st.number_input('input shipment mode')
-        st.caption('1 : Plane, 2 : Ship, 3 : Train')
+    st.caption('1 : Plane, 2 : Ship, 3 : Train')
 
 with right:
     customer_rating = st.number_input('input customer rating')
